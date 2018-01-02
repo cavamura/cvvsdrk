@@ -1,0 +1,40 @@
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:orientation="horizontal"
+    android:id="@+id/rowstudentLayout"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/rowstudentid"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_gravity="fill_horizontal"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="0dp"
+        android:clickable="false"
+        android:focusable="false"
+        android:text="@string/studentfrmid" />
+    <TextView
+        android:id="@+id/rowstudentcanac"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_gravity="fill_horizontal"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="0dp"
+        android:clickable="false"
+        android:focusable="false"
+        android:text="@string/studentlstcanac" />
+
+    <TextView
+        android:id="@+id/rowstudentnome"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="fill_horizontal"
+        android:layout_toEndOf="@+id/rowidFlight"
+        android:layout_toRightOf="@+id/rowidFlight"
+        android:clickable="false"
+        android:focusable="false"
+        android:text="@string/studentlstnome" />
+</LinearLayout >

@@ -1,0 +1,29 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.cavamura.cvvsdrk.MainActivity">
+    <item
+        android:id="@+id/mnuit1"
+        android:orderInCategory="100"
+        android:title="@string/students"
+        app:showAsAction="never" />
+
+
+    <item
+        android:id="@+id/mnuit2"
+        android:orderInCategory="100"
+        android:title="@string/mnuEvaluationSheet"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/mnuit3"
+        android:orderInCategory="100"
+        android:title="@string/mnuInpl"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/mnuit4"
+        android:orderInCategory="100"
+        android:title="@string/mnuabout"
+        app:showAsAction="never" />
+</menu>

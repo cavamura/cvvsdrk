@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp" >
+
+
+    <!--
+    <TextView
+        android:id="@+id/lblstudentid"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:text="@string/studentfrmid"
+        android:textSize="20dp"     />
+
+    <EditText
+        android:id = "@+id/txtstudentid"
+        android:layout_toRightOf="@+id/lblstudentid"
+        android:layout_width="200dp"
+        android:layout_height="70dp" />
+
+-->
+    <TextView
+    android:id="@+id/lblstudentcanac"
+    android:layout_width="150dp"
+    android:layout_height="70dp"
+
+    android:text="@string/studentlstcanac"
+    android:textSize="20dp"     />
+
+
+    <EditText
+        android:id = "@+id/txtstudentcanac"
+
+        android:layout_toRightOf="@+id/lblstudentcanac"
+        android:layout_width="200dp"
+        android:layout_height="70dp" />
+    <TextView
+        android:id="@+id/lblstudentnome"
+        android:layout_below="@+id/lblstudentcanac"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:text="@string/studentfrmnome2"
+        android:textSize="20dp"     />
+
+
+
+    <EditText
+        android:id = "@+id/txtstudentnome"
+        android:layout_below="@+id/txtstudentcanac"
+        android:layout_toRightOf="@+id/lblstudentnome"
+        android:layout_width="200dp"
+        android:layout_height="70dp" />
+    <Button
+        android:id = "@+id/btnstudentcadastrar"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/lblstudentnome"
+        android:text="@string/studentbtncadastrar"
+        />
+    <Button
+        android:id = "@+id/btnstudentbuscar"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/lblstudentnome"
+        android:layout_toRightOf="@+id/btnstudentcadastrar"
+        android:text="@string/studentbtnbuscar"
+        />
+    <Button
+        android:id = "@+id/btnstudentremover"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/lblstudentnome"
+        android:layout_toRightOf="@+id/btnstudentbuscar"
+        android:text="@string/studentbtnremover"
+        />
+    <ListView
+        android:id = "@+id/listviewstudent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnstudentcadastrar"
+        />
+</RelativeLayout>

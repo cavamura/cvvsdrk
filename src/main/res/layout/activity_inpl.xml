@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp" >
+
+    <!--
+
+    <TextView
+        android:id="@+id/lblinplid"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:text="@string/inplfrmid"
+        android:textSize="20dp"     />
+
+    <EditText
+        android:id = "@+id/txtinplid"
+        android:layout_toRightOf="@+id/lblinplid"
+        android:layout_width="200dp"
+        android:layout_height="70dp" />
+-->
+
+    <TextView
+        android:id="@+id/lblinplcanac"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:text="@string/inpllstcanac"
+        android:textSize="20dp"     />
+
+    <EditText
+        android:id = "@+id/txtinplcanac"
+        android:layout_toRightOf="@+id/lblinplcanac"
+        android:layout_width="200dp"
+        android:layout_height="70dp" />
+    <TextView
+        android:id="@+id/lblinplnome"
+        android:layout_below="@+id/lblinplcanac"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:text="@string/inplfrmnome2"
+        android:textSize="20dp"     />
+    <EditText
+        android:id = "@+id/txtinplnome"
+        android:layout_below="@+id/txtinplcanac"
+        android:layout_toRightOf="@+id/lblinplnome"
+        android:layout_width="200dp"
+        android:layout_height="70dp" />
+    <Button
+        android:id = "@+id/btninplcadastrar"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/lblinplnome"
+        android:text="@string/inplbtncadastrar"
+        />
+    <Button
+        android:id = "@+id/btninplbuscar"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/lblinplnome"
+        android:layout_toRightOf="@+id/btninplcadastrar"
+        android:text="@string/studentbtnbuscar"
+        />
+    <Button
+        android:id = "@+id/btninplremover"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/lblinplnome"
+        android:layout_toRightOf="@+id/btninplbuscar"
+        android:text="@string/inplbtnremover"
+        />
+    <ListView
+        android:id = "@+id/listviewinpl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btninplcadastrar"
+        />
+</RelativeLayout>
+
